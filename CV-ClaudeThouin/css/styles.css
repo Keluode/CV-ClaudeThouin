@@ -1,0 +1,74 @@
+﻿header {
+    font-family: 'Segoe UI Emoji', serif;
+    font-size: 80px;
+    color: #eeefff;
+    background-color: darkblue;
+    margin: 0 0 0 -30px;
+    padding: 10px 0 0 20px;
+}
+
+h1 {
+    font-family: 'Segoe UI Emoji';
+    font-size: 28px;
+    color: #eeefff;
+    background-color: darkblue;
+    margin: -20px 0 0 -30px;
+    padding: 0 0 0 100px;
+}
+
+h2 {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 24px;
+    color: #000b81;
+    text-align: left;
+    margin: 40px 0 15px 0;
+    padding: 0 0 0 0;
+}
+
+body {
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 16px;
+    background-color: #eaebff;
+    /*background-color: black;*/
+    margin: 0 0 0 30px;
+    padding: 0 0 0 0;
+    width: 800px;
+}
+
+.titre-puces {
+    margin: 15px 0 0 5px;
+    padding: 0 0 0 0;
+}
+
+.custom-puces {
+    list-style: none;
+    margin: 0 0 0 0;
+}
+
+    .custom-puces li::before {
+        display: inline-block;
+        content: "➡";
+        margin-right: 0.5em;
+        font-size: 10px;
+        padding: 0;
+    }
+
+.escalier {
+    margin: 20px 0;
+    font-weight: bold;
+    font-family: 'Segoe UI Emoji', sans-serif;
+    font-size: 18pt;
+}
+
+    .escalier span {
+        display: block;
+        margin-left: 2em;
+    }
+
+        .escalier span:nth-child(2) {
+            margin-left: 4em
+        }
+
+        .escalier span:nth-child(3) {
+            margin-left: 6em;
+        }
